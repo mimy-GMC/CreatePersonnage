@@ -51,6 +51,7 @@ Le code est organisé en trois fichiers distincts pour une meilleure maintenabil
 
 3. Interagissez avec le personnage en cliquant sur son ventre ou sa tête, ou utilisez les boutons en bas de l’écran.
 
-**Un projet ludique pour explorer les possibilités du CSS et du JavaScript en matière d’illustration et d’interactivité.
-Fait par Miryam GAKOSSO**
+**Un projet ludique pour explorer les possibilités du CSS et du JavaScript en matière d’illustration et d’interactivité.**
+
+**Fait par Miryam GAKOSSO**
 
