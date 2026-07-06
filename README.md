@@ -39,9 +39,9 @@ JavaScript (Vanilla) : gestion des interactions, expressions, rire, suivi des ye
 
 Le code est organisé en trois fichiers distincts pour une meilleure maintenabilité :  
 📂 CreatePersonnage/  
-├── 📄 index.html   # Structure du personnage et des boutons  
-├── 📄 style.css    # Tous les styles et animations  
-└── 📄 script.js    # Logique interactive (expressions, rire, couleurs)  
+├── 📄 index.html    # Structure du personnage et des boutons  
+├── 📄 style.css      # Tous les styles et animations  
+└── 📄 script.js      # Logique interactive (expressions, rire, couleurs)  
 
 ## Comment l’utiliser
 
