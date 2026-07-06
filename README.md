@@ -5,7 +5,7 @@ Le personnage possède un corps complet (tête, cheveux, cou, torse, bras, mains
 
 ## Fonctionnalités
 
-** Visage expressif :** sourcils, yeux (avec pupilles qui suivent la souris), nez et bouche animée.
+**Visage expressif :** sourcils, yeux (avec pupilles qui suivent la souris), nez et bouche animée.
 
 **Animations continues :**
 
@@ -38,10 +38,10 @@ JavaScript (Vanilla) : gestion des interactions, expressions, rire, suivi des ye
 ## Structure du projet
 
 Le code est organisé en trois fichiers distincts pour une meilleure maintenabilité :
-📂 CreatePersonnage/
-├── 📄 index.html   # Structure du personnage et des boutons
-├── 📄 style.css    # Tous les styles et animations
-└── 📄 script.js    # Logique interactive (expressions, rire, couleurs)
+📂 CreatePersonnage/  
+├── 📄 index.html   # Structure du personnage et des boutons  
+├── 📄 style.css    # Tous les styles et animations  
+└── 📄 script.js    # Logique interactive (expressions, rire, couleurs)  
 
 ## Comment l’utiliser
 
