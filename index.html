@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personnage féminin</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="scene">
+        <div class="ground"></div>
+        <div class="shadow"></div>
+
+        <div class="character" id="character">
+
+            <!-- TÊTE -->
+            <div class="head" id="head">
+                <div class="neck"></div>
+                <div class="ear ear-left"></div>
+                <div class="ear ear-right"></div>
+                <div class="hair-back"></div>
+                <div class="hair-front"></div>
+                <div class="eyebrow eyebrow-left" id="browL"></div>
+                <div class="eyebrow eyebrow-right" id="browR"></div>
+                <div class="eye eye-left" id="eyeL">
+                    <div class="pupil" id="pupilL"></div>
+                    <div class="catchlight catchlight-1"></div>
+                    <div class="catchlight catchlight-2"></div>
+                </div>
+                <div class="eye eye-right" id="eyeR">
+                    <div class="pupil" id="pupilR"></div>
+                    <div class="catchlight catchlight-1"></div>
+                    <div class="catchlight catchlight-2"></div>
+                </div>
+                <div class="eyelid eyelid-left"></div>
+                <div class="eyelid eyelid-right"></div>
+                <div class="eyelash eyelash-left-1"></div>
+                <div class="eyelash eyelash-left-2"></div>
+                <div class="eyelash eyelash-left-3"></div>
+                <div class="eyelash eyelash-right-1"></div>
+                <div class="eyelash eyelash-right-2"></div>
+                <div class="eyelash eyelash-right-3"></div>
+                <div class="nose">
+                    <span class="nostril nostril-left"></span>
+                    <span class="nostril nostril-right"></span>
+                </div>
+                <div class="cheek cheek-left" id="cheekL"></div>
+                <div class="cheek cheek-right" id="cheekR"></div>
+                <div class="mouth smile" id="mouth">
+                    <div class="teeth"><span></span><span></span><span></span><span></span></div>
+                    <div class="tongue"></div>
+                </div>
+                <div class="chin-shadow"></div>
+                <div class="laugh-bubble" id="laughBubble">Haha !</div>
+            </div>
+
+            <!-- CORPS -->
+            <div class="body" id="body">
+
+                <div class="torso" id="torso">
+                    <div class="top-clothing" id="topClothing"><div class="hem"></div></div>
+                    <div class="arm arm-left" id="armL"><div class="hand"><span class="finger"></span><span class="finger"></span><span class="finger"></span><span class="finger"></span></div></div>
+                    <div class="arm arm-right" id="armR"><div class="hand"><span class="finger"></span><span class="finger"></span><span class="finger"></span><span class="finger"></span></div></div>
+                    <div class="belt"><span class="hole"></span><span class="hole"></span><span class="hole"></span><span class="hole"></span></div>
+                    <div class="click-hint" id="clickHint">Touche mon ventre !</div>
+                </div>
+
+                <div class="lower-body">
+                    <div class="skirt" id="skirt">
+                        <span class="pleat"></span><span class="pleat"></span><span class="pleat"></span><span class="pleat"></span><span class="pleat"></span>
+                    </div>
+                    <div class="leg leg-left"></div>
+                    <div class="leg leg-right"></div>
+                    <div class="foot foot-left"><span class="strap"></span></div>
+                    <div class="foot foot-right"><span class="strap"></span></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- LES BOUTONS -->
+    <div class="controls">
+        <button onclick="changeExpression('smile')">Sourire</button>
+        <button onclick="changeExpression('surprise')">Surprise</button>
+        <button onclick="changeExpression('neutral')">Neutre</button>
+        <button onclick="changeExpression('speak')"> Parler</button>
+        <button onclick="changeColor()">Changer de couleur</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
